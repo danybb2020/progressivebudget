@@ -21,7 +21,7 @@ function populateTotal(){
         return total + parseInt(t.value);
     },0);
 
-let totalEl = document,querySelector("#total");
+let totalEl = document.querySelector("#total");
 total.El.textContent = total;
 }
 
@@ -136,7 +136,7 @@ else {
 });
     }
 
-    document.querySelector("#add-bttn").onclick= function () {
+    document.querySelector("#add-btn").onclick= function () {
         sendTransaction(true);
     };
     document.querySelector("#sub-btn").onclick = function () {
